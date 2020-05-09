@@ -1,20 +1,24 @@
 pipeline {
   agent any
+  tools {
+        maven 'Maven 3.3.9'
+        jdk 'jdk8'
+  }
   stages 
     {
     stage('Clean') {
       steps {
-        bash 'mvn clean'
+        sh 'mvn clean'
       }
     }
     stage('Compile') {
       steps {
-        bash 'mvn compile'
+        sh 'mvn compile'
       }
     }
     stage('Test') {
       steps {
-        bash 'mvn test'
+        sh 'mvn test'
       }
     }
   }
