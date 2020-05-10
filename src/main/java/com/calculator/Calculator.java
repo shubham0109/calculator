@@ -8,7 +8,7 @@ public class Calculator {
         int flag=0,ch;
         double num1,num2;
         Scanner reader = new Scanner(System.in);
-        System.out.println("Basic Calculator");
+        System.out.println("Basic Simple Calculator");
         do
         {
             System.out.println("Menu");
