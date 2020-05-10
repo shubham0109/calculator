@@ -4,6 +4,7 @@
   <artifactId>calculator</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <build>
+	  <finalName>basic-calculator</finalName>
 	<plugins>
 		<plugin>
 	        <groupId>org.apache.maven.plugins</groupId>
